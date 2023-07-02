@@ -17,3 +17,57 @@
     color: #62d5e8;        /* 文字顏色設定*/
     text-decoration: underline;/* 文字有底線*/
 }
+
+
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+    /*transform: scale3d(1,1,1);*/
+}
+
+.header{
+/*     display: flex; */
+    position: fixed;
+/*     width: 100% ;    */
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header h1{
+    width:182px;
+    height: 36px;
+    background-image: url("img/Header\ logo.PNG");
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-right: 5px;
+}
+
+.menu li:nth-child(3){
+    margin-right: 0;
+}
+
+.menu li a{
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border-bottom: 8px solid transparent;
+}
+
+.menu li a:hover{
+    color: #06bd8e;
+    border-bottom: 8px solid #00cc99;
+}
